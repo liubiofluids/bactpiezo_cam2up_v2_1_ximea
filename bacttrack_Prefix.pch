@@ -1,0 +1,17 @@
+//
+// Prefix header for all source files of the 'bacttrack' target in the 'bacttrack' project
+//
+
+#ifdef __cplusplus
+#   include <opencv2/opencv.hpp>
+#   include <opencv2/stitching/detail/blenders.hpp>
+#   include <opencv2/stitching/detail/exposure_compensate.hpp>
+#else
+#   import <Foundation/Foundation.h>
+#   import <Availability.h>
+#endif
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
