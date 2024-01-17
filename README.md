@@ -4,5 +4,5 @@ Objective-C code (for macOS) for controlling microscope stages and acquiring mic
 - Before building the code, users need to install:
   1) libdc1394 (for dc1394-compatible cameras)
   2) m3api (for XIMEA cameras)
-  3) opencv
+  3) opencv3 
   4) phidget22
